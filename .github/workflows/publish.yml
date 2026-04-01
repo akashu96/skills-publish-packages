@@ -17,7 +17,7 @@ jobs:
         #add test steps here if needed
       - name: Docker meta
         id: meta
-        uses: docker/metadata-action@v5
+        uses: docker/metadata-action@v6
         with:
           images: ghcr.io/akashu96/publish-package/game
           tags: type=sha
